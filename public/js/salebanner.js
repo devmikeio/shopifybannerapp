@@ -24,7 +24,7 @@ function runSalesBanner(slSettings) {
   }
   }
 
-  $.get( "https://shopifybannerapp.herokuapp.com/api/banners", function(data) {
+  $.get( "https://d8f02f11e154.ngrok.io/api/banners", function(data) {
     console.log( "success" );
     //console.log(data)
   })
