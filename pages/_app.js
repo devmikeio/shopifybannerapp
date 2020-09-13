@@ -19,7 +19,7 @@ class MyApp extends App{
   render(){
     const { Component, pageProps } = this.props;
     const config = {
-      apiKey: '5d393f16391419d7b83f077c20f55df1',
+      apiKey: SHOPIFY_API_KEY,
       shopOrigin: Cookies.get("shopOrigin"),
       forceRedirect: true
     };
